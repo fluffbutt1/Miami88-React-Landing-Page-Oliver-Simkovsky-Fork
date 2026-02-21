@@ -1,10 +1,8 @@
 import React from "react";
-import NewHTML from "./New";
-
-//include images into your bundle
 import rigoImage from "../../img/rigo-baby.jpg";
 import { NavBar } from "./NavBar";
 import { Jumbo } from "./Jumbo";
+import { Cards } from "./Cards";
 
 //create your first component
 const Home = () => {
@@ -14,6 +12,7 @@ const Home = () => {
             
 			<NavBar/>
 			<Jumbo/>
+			<Cards />
 		</div>
 	);
 };
